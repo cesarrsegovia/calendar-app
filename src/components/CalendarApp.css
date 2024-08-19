@@ -11,7 +11,7 @@
     position: relative;
     transform-style: preserve-3d;
 }
-.calendar-app::after{
+/* .calendar-app::after{
     content: "";
     position: absolute;
     bottom: -12rem;
@@ -22,7 +22,7 @@
     background-color: rgba(0,0,0, 0.5);
     border-radius: 20rem;
     filter: blur(4rem);
-}
+} */
 .calendar{
     width: 40%;
 }
@@ -115,6 +115,7 @@
     justify-content: center;
     align-items: center;
     row-gap: 2rem;
+    display: none;
 }
 .time-input{
     display: flex;
