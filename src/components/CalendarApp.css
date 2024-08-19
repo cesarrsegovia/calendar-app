@@ -115,7 +115,6 @@
     justify-content: center;
     align-items: center;
     row-gap: 2rem;
-    display: none;
 }
 .time-input{
     display: flex;
